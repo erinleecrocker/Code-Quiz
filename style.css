@@ -1,0 +1,27 @@
+.main-page {
+    padding-top: 50px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-page-two {
+    padding-top: 50px;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+
+}
+
+
+
+header {
+    margin: 5px;
+
+}
+
+.click-button {
+
+    background-color: rgb(143, 55, 165);
+    outline-color: solid, 3px, rgb(143, 55, 165);
+}
