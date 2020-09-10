@@ -13,7 +13,11 @@
 
 }
 
+#question-display-page {
 
+}
+
+#score-display-page
 
 header {
     margin: 5px;
@@ -21,7 +25,11 @@ header {
 }
 
 .click-button {
-
     background-color: rgb(143, 55, 165);
-    outline-color: solid, 3px, rgb(143, 55, 165);
+    outline-color: rgb(143, 55, 165);
+}
+
+.choices-choices {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

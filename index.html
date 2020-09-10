@@ -22,7 +22,7 @@
   <body>
     <header class="d-flex justify-content-between">
         <a href="highscore.html">Highscores</a>
-        <h6 id="timer-display">00</h6>
+        <h6 id="timer-display">Timer: 00</h6>
     </header>
  <!--- area that will change in java-->
     <div class = "main-page">
@@ -36,26 +36,64 @@
              <!-- start button -->
             <button type="button" Id="start-quiz" class="btn btn-primary btn-sm click-button">Start Quiz</button>
         </div>  
+
+
+
         <!-- questions display page -->
         <div class = "main-page-two" id="question-display-page">
             <!-- question  -->
-        <h2 id = "question-space"> </h2>
+            <h2 id = "question-space"> </h2>
             <!-- answer options  -->
-        <ol class = "answer-option-list"> </ol> 
+            <ol>
+                <div class = "row choices-choices">
+                    <button type="button" value=0 class="btn btn-primary btn-sm click-button" id="numone" >Test1</button>
+                </div>
+                <div class = "row choices-choices" >
+                    <button type="button" value=1 class="btn btn-primary btn-sm click-button" id="numtwo" >Test2</button>
+                </div>
+                <div class = "row choices-choices">
+                    <button type="button" value=2 class="btn btn-primary btn-sm click-button" id="numthree" >Test3</button>
+                </div>
+                <div class = "row choices-choices">
+                    <button type="button" value=3 class="btn btn-primary btn-sm click-button" id="numfour" >Test4</button>
+                </div>
+            </ol>
         </div>
         <!-- score display form / page -->
-        <div class="main-page-two" id="sore-display-page"></div>
-            <!-- <form>
-                <h2 id="all-done"> </h2> -->
+        <div class="main-page-two" id="score-display-page"></div>
+             <form>
+                <h2 id="all-done"> All done!</h2>
                 <!-- input initals -->
-                <!-- <input id= "input-initials"> </input> -->
+                 <input id= "input-initials"> 
+                    <textarea>
+
+                    </textarea> 
+                </input>
                 <!-- submit button -->
-                <!-- <div id="submit-button">
+                <div id="submit-button">
                 </div>
-            </form> -->
+            </form>
         </div>
     </div>
 
     <script src="./script.js"></script>
   </body>
 </html>
+
+
+
+
+<!-- <div class = "container">
+    <div class = "row choices-choices">
+        <input type="radio" name="choice" value=0 id="numone" >Test1</input>
+    </div>
+    <div class = "row">
+        <input type="radio" name="choice" value=1 id="numtwo" >Test2</input>
+    </div>
+    <div class = "row">
+        <input type="radio" name="choice" value=2 id="numthree" >Test3</input>
+    </div>
+    <div class = "row">
+        <input type="radio" name="choice" value=3 id="numfour" >Test4</input>
+    </div>
+</div> -->
